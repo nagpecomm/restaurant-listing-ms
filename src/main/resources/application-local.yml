@@ -5,7 +5,7 @@ eureka:
 
 spring:
   datasource:
-    url: jdbc:mysql://mysql-db-instance.cdg8004e4ukm.eu-west-2.rds.amazonaws.com:3306/restaurantdb?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://aws-mysql-db-instance.cdg8004e4ukm.eu-west-2.rds.amazonaws.com.com:3306/restaurantdb?useSSL=false&serverTimezone=UTC
     username: admin
     password: codedecode
     driver-class-name: com.mysql.cj.jdbc.Driver
